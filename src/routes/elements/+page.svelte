@@ -4,7 +4,7 @@ Each manoeuvre is built up from a number of principal elements flown sequentiall
 </p>
 <h2>Dynamic Time Warping</h2>
 <p>
-In FCScore the task is achieved by comparing the recorded flight data to a computer generated set of template flight data. A [Dynamic Time Warping](https://cs.fit.edu/~pkc/papers/tdm04.pdf) algorithm is used, which finds the optimal alignment between two time series which may vary in the time axis. The element split locations may then be copied from the template data along the warping path produced by the DTW algorithm. 
+In FCScore the task is achieved by comparing the recorded flight data to a computer generated set of template flight data. A <a href="https://cs.fit.edu/~pkc/papers/tdm04.pdf">Dynamic Time Warping</a> algorithm is used, which finds the optimal alignment between two time series which may vary in the time axis. The element split locations may then be copied from the template data along the warping path produced by the DTW algorithm. 
 </p>
 <h2>DTW in Two Stages</h2>
 <p>
