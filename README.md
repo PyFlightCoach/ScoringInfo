@@ -1,38 +1,7 @@
-# sv
+## Flight Coach Score Help and Information
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This repo contains the help and information docs for Flight Coach Score. It is hosted on hithub pages and accessed directly by the FCScore client. (flightcoach.org/fcscore)
 
-## Creating a project
+The help documents for each page are linked to the markdown files in static/help, so static/help/flight_results.md will show in FCScore when you click on the question mark at the top of flightcoach.org/fcscore/flight/results. 
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+The svelte project itself is served [here](https://pyflightcoach.github.io/ScoringInfo/) and will contain supplementary information for FCScore users and for people who are interested in how the judging process works.
