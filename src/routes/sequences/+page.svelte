@@ -2,7 +2,7 @@
   import {base} from '$app/paths';
 
 </script>
-<h1>Modelling Aerobatic Manoeuvres</h1>
+<h1>Aerobatic Sequence Definition</h1>
 
 <p>
 Developing a computer model of an aerobatic sequence and the associated judging criteria is a fundamental part of the judging process. 
@@ -23,7 +23,8 @@ Developing a computer model of an aerobatic sequence and the associated judging 
   <img src='{base}/stallturn_1.png' class="col-md-2" alt="stallturn_1">
 </div>  
 <p>
-  As part of the judging process we have developed a method of automatically generating flight data to represent the principal elements and you have been able to view these template flights in the Flight Coach plotter for quite a while. 
+  As part of the judging process we have developed a method of automatically generating flight data to represent the principal elements and you have been able to view these template flights in the Flight Coach plotter for quite a while. The template generation process also creates all the downgrades applicable to the manoeuvre based on the rules of the aerobatic category the sequence is defined for. 
 </p>
 
-
+<h2>Available Sequences</h2>
+<p>The definition of new sequences is not trivial. Eventually we hope to introduce a user interface to allow you to create your own sequences and to parse <a href="https://openaero.net/">olan</a> strings. Until then the sequences available in FCScore can be viewed <a href="https://www.flightcoach.org/fcscore/schedule/browse/">here</a> and we will try to keep up to date with the known sequences for most aerobatic categories.</p>

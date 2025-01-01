@@ -1,8 +1,10 @@
 <script lang="ts">
 	const pages: Record<string, any> = {
-		sequences: 'Modelling Aerobatic Manoeuvres',
+		sequences: 'Modelling Aerobatic Sequences',
 		elements: 'Identifying the Principal Elements',
-    scoring: 'Scoring Manoeuvres',
+    intra: 'Intra Element Downgrades',
+    inter: 'Inter Element Downgrades',
+    positioning: 'Positioning Downgrades',
     visibility: 'Accounting for the judges view'
 	};
 </script>
