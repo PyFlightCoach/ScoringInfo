@@ -1,6 +1,6 @@
 ## Flight Coach Score Help and Information
 
-This repo contains the help and information docs for Flight Coach Score. It is hosted on hithub pages and accessed directly by the FCScore client. (flightcoach.org/fcscore)
+This repo contains the help and information docs for Flight Coach Score. It is hosted on Github pages and accessed directly by the FCScore client. (flightcoach.org/fcscore)
 
 The help documents for each page are linked to the markdown files in static/help, so static/help/flight_results.md will show in FCScore when you click on the question mark at the top of flightcoach.org/fcscore/flight/results. 
 
