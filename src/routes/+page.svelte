@@ -1,11 +1,12 @@
 <script lang="ts">
-	const pages: Record<string, any> = {
+	const pages = {
 		sequences: 'Modelling Aerobatic Sequences',
 		elements: 'Identifying the Principal Elements',
     intra: 'Intra Element Downgrades',
     inter: 'Inter Element Downgrades',
     positioning: 'Positioning Downgrades',
-    visibility: 'Accounting for the judges view'
+    visibility: 'Accounting for the judges view',
+    competition: 'The contest management system',
 	};
 </script>
 
