@@ -1,4 +1,3 @@
-# Intra Element Results
 The intra element downgrades are awarded for errors in execution of each individual principal element. On this page you can see an overview of all the intra element downgrades assigned to the manoeuvre as well as detailed information on a single downgrade. 
 
 ## Selecting a downgrade
@@ -12,4 +11,5 @@ When both an element and a downgrade are selected some detailed information abou
 4. Crop the measurement to the relevant region (sample)
 5. Apply some criteria to identify the downgradable errors.
 6. Convert each error to a downgrade.
+
 Descriptions of each step for the selected downgrade are provided in the information on the left of the page. The graph at the bottom of the page shows the measurement (black line), the visibility estimate (blue dotted line), the sample (green line) and the downgrades (coloured dots). 
