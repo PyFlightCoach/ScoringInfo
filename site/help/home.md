@@ -1,6 +1,13 @@
-Welcome to Flight Coach Score. Use the navbar at the top of the page to choose what you want to do. 
+# Welcome to Flight Coach Score
 
-- **User Menu**: Tools for logging in, signing up and editing your profile. 
-- **Flight Menu**: Tools for analysing and sharing a flight, select **Create** to load your flight data and analyse a flight, or select **Example** to view the analysis of an example flight. Note you do not need to be logged in or even have an account if you just want to analyse a flight. You will need to sign up to share your flights on the database and view the leaderboards.
-- **Database Menu**: Use this menu to load information from our database. **Leaderboard** lets you see how your flights stack up against other peoples, you need to be logged in to see this. **Schedules** shows the aerobatic schedules that you can analyse using FCScore. We will add more in future and eventually define a way for you to define your own schedules.
-- **Help Menu**: This button will appear when we have specific help information available for the page you are on. 
+Use the navigation bar at the top of the page to choose what to do. You do not need an account to analyse a flight, but you need one to share flights and use the leaderboards.
+
+- **User menu**: Login, Sign Up, Profile and logout.
+- **Flight menu**: **Create** loads a flight log (ArduPilot BIN or AcroWRX file), **Import** loads a BIN with a saved analysis, **Load Template** opens an empty sequence and **Example** shows a worked example. Once a flight is loaded the menu also offers Box, Manoeuvres and Results.
+- **Database menu** (logged in): **Leaderboard** and **Schedules**.
+- **Competition menu** (logged in): browse, view and enter competitions.
+- **Help button**: enabled when help is available for the page you are on.
+
+When you are logged in this page also shows news and tables of your recent flights, top flights and activity.
+
+[Full instructions](https://pyflightcoach.github.io/FCScoreDocs/instructions/)

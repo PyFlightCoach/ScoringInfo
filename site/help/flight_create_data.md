@@ -1,17 +1,13 @@
-Use this page to load flight data and define the aerobatic box. When both have been defined an option to move on to the next stage will be made available.
+# Load flight data
 
-## Load Flight Data
+Flights are now loaded from the **Flight** menu, not from a separate page.
 
-A number of sources can be used to load flight data for analysis, but if you want to share your flights on the FCScore database you must select an Ardupilot bin file. If you select one of the other options you will still be able to analyse the flight and calculate scores.
+- **Create**: choose an ArduPilot BIN file (or AcroWRX file). FCScore reads the file and shows its boot time, duration, logging rate and origin.
+- Optionally add a Flight Coach JSON file to reuse its box and manoeuvre splits, then press **Continue to box setup**.
+- BIN files should be logged at about 20 Hz. A warning appears below 18 Hz.
+- If the file is already on the database a warning is shown. You can still analyse it but not upload it again.
+- **Import** loads a BIN with a saved analysis (AJSON) file.
 
-If the bin file you selected already exists on our database a warning will be shown, you won't be able to upload it again but you can still perform the analysis.
+Next step: set the box at [the Box page](/fcscore/flight/new/box)
 
-## Define the Box
-
-By default the previous box you used will be loaded, if this is your first time using FCScore then the box closest to your flight data will be loaded from FCMap.
-
-- Flight Coach Sites: Sites loaded from FCMap. The five closest sites to the origin of your bin data will show in a select box. click on the relevant one and confirm it aligns to your flight data using the map.
-- Pilot, Heading and Pilot, Center: Manually define the gps location of the pilot position and either a point on the way to center, or the direction towards center.
-- F3A Zone / FC JSON File: Read the box from either of these file types stored on your computer. If an FC JSON file is selected then the manoeuvre split information will also be loaded from it.
-
-
+[Full instructions](https://pyflightcoach.github.io/FCScoreDocs/instructions/scoring/load_flight_data/)
